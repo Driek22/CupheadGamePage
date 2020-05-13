@@ -1,0 +1,135 @@
+<!--Author:Randy van Zundert
+Page:xbox page with info and videos
+Last Edited:26/11/2019-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Basic HTML Rules</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Center an Image using text align center</title>
+    <style>
+      .img-container {
+        text-align: center;
+      }
+    </style>
+</head>
+<body id="page4">
+        <div class="myDiv">
+
+    <!--this is used to play a certain audiofile --> 
+  
+      <audio src="audio/floralfury.mp3" 
+      preload="auto" 
+  
+      controls>
+      <p>If you are reading this, it is because your browser does not support the audio element.</p>
+      </audio>
+  <!-- This is the main image of the index -->
+            <section id="main">
+              <img src='img/header.png' width="85%" height=85%>
+            </section>
+
+  <!-- This is the header and navbar -->
+        <section id="main">
+          <a class="image" href="switch.html"><img src="img/Switch.png"></a>
+          <a class="image" href="ps4.html"><img src="img/PS4.png"></a>
+          <a class="image" href="xbox.html"><img src="img/box.png"></a>
+          <a class="image" href="pc.html"><img src="img/pc.png"></a>
+        </section> 
+ <!--this is used to display a certain image -->
+
+        <div class="img-container"> <!-- Block parent element -->
+          <img src='./img/randyimage.png' width='50%' alt='randyimage.png not found'>
+        </div>
+        
+    
+  <!--this is used to play a certain video from youtube --> 
+
+            <section id="main">
+             <h2>
+               
+               <iframe width="840" height="630"src=https://www.youtube.com/embed/X9Qv0awym7A?autoplay=1%22%3E></iframe>
+
+               <iframe width="840" height="630"src=https://www.youtube.com/embed/scgMokyHTUA?autoplay=1%22%3E></iframe><br>
+
+   <!--description of the product --> 
+
+               Cuphead Beschrijving<br><br>
+
+               cuphead is een klassiek run and gun actie spel stevig gefocust op boss battles<br>
+               geïnspireerd door cartoons uit 1930, de visuelen en audio zijn zo goed als<br>
+               gecreëerd met dezelfde technieken van die tijd: traditionele handgetekende animaties,<br> 
+               watergekleurde achtergronden en originele jazz recordings. speel als cuphead of mugman<br>
+               (in single player of local co-op) terwijl je de vreemde werelden doorkruist, verkrijg niuwe wapens<br>
+               ,leer krachtige moves en ontdek verborgen geheimen terwijl je je schuld terug betaald aan de duivel<br><br>
+
+               over cuphead<br><br>
+
+               Cuphead is een computerspel uitgegeven door StudioMDHR Entertainment.<br> 
+               Het spel kwam uit voor Windows en de Xbox One op 29 september 2017 en werd<br> 
+               bijzonder goed ontvangen door recensenten en spelers. In Cuphead moet de speler<br> 
+               meerdere eindbaasgevechten achter elkaar spelen in een surrealistische tekenfilmwereld<br>
+               die sterk beïnvloed is door tekenfilms uit de jaren 30, met name het werk van Max Fleischer.<br>
+               Het spel werd twee weken na de uitgave meer dan een miljoen keer verkocht.<br><br>
+              
+               gameplay<br><br>
+
+               In Cuphead bestuurt de speler Cuphead, een klein wit mannetje met een koffiekopje als<br>
+               hoofd. Het is ook mogelijk om met twee spelers te spelen, de tweede speler bestuurt<br>
+               dan Mugman; een soortgelijk personage die een koffiemok als hoofd heeft. De speler<br>
+               heeft oneindig veel levens en bewaart items en wapens nadat hij dood gaat. Cuphead<br>
+               heeft een pistool met oneindige kogels en een sprint aanval. Naarmate de speler<br>
+               vordert in het spel kunnen verzamelde gouden munten gebruikt worden om extra voorwerpen<br>
+               en wapens te kopen. In ieder veld moet de speler het opnemen tegen een veel sterkere<br>
+               tegenstander die minutenlang onder vuur moet worden genomen voordat deze verslagen is.<br>
+               Tegelijkertijd mogen Mugman en Cuphead maar enkele keren geraakt worden door de op hen<br>
+               afgevuurde projectielen of het spel is ten einde.<br>
+
+    <!--this is used to play a certain video from youtube --> 
+
+               <iframe width="840" height="630"src=https://www.youtube.com/embed/cBoPbdOaw7M?autoplay=1%22%3E></iframe>
+
+               <iframe width="840" height="630"src=https://www.youtube.com/embed/hizcUBk04lA?autoplay=1%22%3E></iframe><br><br>
+
+               Randy's Recensie<br><br> 
+
+               persoonlijk vind ik dit een heel leuk spel, het is een van die spellen<br> 
+               waar je tegen zegt; wat een kut spel, ik hou ervan. het heefteen<br> 
+               bepaalde stijl waardoor je het blijft spelen en je meer wilt weten over de lore.<br> 
+               ik geef dit spel een 4 van de 5 sterren, het laat zien dat iets ouds toch goedkan zijn<br> 
+
+
+
+
+             </h2>
+           </section>
+        </div>
+        <!--this is used to show a button that when clicked returns you to the top of the page --> 
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button> 
+        <script>//Get the button:
+                mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0; // For Safari
+                  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                } 
+        </script>
+        
+      
+
+</body>
+</html>
